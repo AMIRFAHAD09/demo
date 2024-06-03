@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK</title>
+</head>
+<body>
+    <div  id="box">
+        <!-- <h1 align="center">AMIR FAHAD KHAN</h1> -->
+        <img src=""alt="">
+    </div> 
+    <button onclick="change1()">RED</button>
+    <button onclick="change2()">BLUE</button>
+    <button onclick="change3()">GREEN</button>
+    <button onclick="change4()">YELLOW</button>
+    <script>
+        
+            var bx = document.getElementById("box");
+            bx.style.width="400px";
+            bx.style.height="400px";
+            bx.style.color="black";
+            bx.style.border = "5px solid";
+            bx.style.alignContent="center";
+            bx.style.marginBottom="10px";
+        
+            function change1()
+            {
+                var a=document.getElementById("box");
+                a.style.backgroundColor="red";
+            }
+            function change2()
+            {
+                var a=document.getElementById("box");
+                a.style.backgroundColor="blue";
+            }
+            function change3()
+            {
+                var a=document.getElementById("box");
+                a.style.backgroundColor="green";
+            }
+            function change4()
+            {
+                var a=document.getElementById("box");
+                a.style.backgroundColor="yellow";
+            }
+    </script>
+</body>
+</html>
