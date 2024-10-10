@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.login{
+    height: 300px;
+    width: 60%;
+    /* border: 2px solid white; */
+    display: none;
+}
+.sign{
+    height: 380px;
+    width: 60%;
+    /* border: 2px solid white; */
+    /* display: none; */
+}
+.frm-content{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: #e6e6e6;
+}
+.imgbox{
+    height: 100%;
+    float: left;
+    width: 30%;
+    background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
+    position: relative;
+}
+/* #signup,#log
+{
+    color: blue;
+    cursor: pointer;
+} */
+.form-box {
+    float: left;
+    width: 100%;
+    /* padding-top: 20px; */
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-box h2{
+    margin-bottom: 15px;
+}
+.input-box {
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login_img{
+ width: 12rem;
+ height: 11rem;
+ margin-bottom: 10px;
+ border-radius: 15px;
+}
+.imgbox h3{
+    margin-top: 30px;
+}
+#signup_link,#login_link{cursor:pointer;}
+.sign_up_p{
+    font-weight: 900;
+    color:white;
+    margin-top: 30px;
+}
+::placeholder {
+    color: #ccc;
+}
+#login_btn, #signup_btn{background: linear-gradient(90deg, rgba(155, 247, 244, 1) 0%, rgba(38, 67, 197, 1) 80%, rgba(8, 22, 183, 1) 100%);
+color: white;
+font-size: 17px;}
+
+
+@media(max-width:768px)
+{
+    .imgbox{display:none;}
+    .frm-content{width:100%;}
+    .login,.sign{width: 80%;}
+    .login{height: 260px;}
+    .form-box{padding: 18px 20px;
+    width: 100%;}
+    .form-box p{font-size: 12px;}
+}
+@media(min-width:768px) and (max-width:1025px){
+    .login_img{
+        width: 7.6rem;
+        height: 8rem;
+    }
+    .form-box p{font-size: 13px;}
+}
