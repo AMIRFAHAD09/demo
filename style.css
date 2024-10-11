@@ -57,48 +57,48 @@ background: rgb(155,247,244);
 }
 
 @media(min-width:350px) and (max-width:550px)
-  {
-      .firstbox{width:100%;
-      height: 65vh;
-    position: relative;}
-      #welcome, #T, .t{font-size: 45px;}
-      
-      .welcome_img {
-      width: 42px;
-      height: 42px;
-      margin-bottom: 9px;}
+    {
+        .firstbox{width:100%;
+        height: 65vh;
+      position: relative;}
+        #welcome, #T, .t{font-size: 40px;}
+        
+        .welcome_img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 6px;}
 
-      .index_bike{
-        /* margin-top: 30px; */
-       position: absolute;
-        bottom: 10%;
-        width: 335px;
-        height: 230px;
-   
+        .index_bike{
+          /* margin-top: 30px; */
+          position: absolute;
+          bottom: 0%;
+          width: 300px;
+          height: 200px;
+     
+        }
+        .secondbox{
+            width: 100%;
+            height: 35vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main_logo{
+          width: 70px;
+          height: 70px;
+        }
+        a.visit_btn{
+          width: 150px;
+          font-size: 15px;
+          margin-top: 20px;
+          box-shadow: 1px 1px 3px 3px #464545;
+          border-radius: 20px;
+          margin-bottom: 25px;
+          font-family: "Poppins", sans-serif;
       }
-      .secondbox{
-          width: 100%;
-          height: 35vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-      }
-      .main_logo{
-        width: 70px;
-        height: 70px;
-      }
-      a.visit_btn{
-        width: 160px;
-        font-size: 20px;
-        margin-top: 20px;
-        box-shadow: 1px 1px 3px 3px #464545;
-        border-radius: 20px;
-        margin-bottom: 25px;
-        font-family: "Poppins", sans-serif;
+      
     }
-    
-  }
 
   @media(min-width:551px) and (max-width:768px)
   {
